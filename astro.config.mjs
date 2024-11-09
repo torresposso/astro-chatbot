@@ -9,6 +9,9 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   output: 'server',
   adapter: deno(),
-  integrations: [react(), tailwind()]
+  integrations: [react(), tailwind()],
+  image: {
+    domains: ['picsum.photos'],
+  }
 }
 );

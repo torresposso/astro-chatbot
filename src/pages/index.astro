@@ -1,5 +1,6 @@
 ---
 import Chat from "../components/Chat";
+import { Image } from "astro:assets";
 ---
 
 <html lang="en">
@@ -11,6 +12,15 @@ import Chat from "../components/Chat";
 		<title>Astro</title>
 	</head>
 	<body class="bg-black text-white mx-auto mt-5 max-w-3xl">
+		<div class="">
+			<Image
+				src="https://picsum.photos/1280/720"
+				alt="A bird."
+				inferSize={true}
+				class="h-full w-full object-cover"
+			/>
+		</div>
+
 		<Chat client:only="react" />
 	</body>
 </html>

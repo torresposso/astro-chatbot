@@ -14,6 +14,7 @@
     "npm:react-dom@^18.3.1": "18.3.1_react@18.3.1",
     "npm:react-markdown@^9.0.1": "9.0.1_@types+react@18.3.12_react@18.3.1",
     "npm:react@^18.3.1": "18.3.1",
+    "npm:sharp@~0.33.5": "0.33.5",
     "npm:tailwindcss@^3.4.14": "3.4.14_postcss@8.4.47",
     "npm:typescript@^5.6.3": "5.6.3"
   },
@@ -3670,6 +3671,7 @@
         "npm:react-dom@^18.3.1",
         "npm:react-markdown@^9.0.1",
         "npm:react@^18.3.1",
+        "npm:sharp@~0.33.5",
         "npm:tailwindcss@^3.4.14",
         "npm:typescript@^5.6.3"
       ]
